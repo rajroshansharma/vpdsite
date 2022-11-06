@@ -1,0 +1,143 @@
+h2{
+    font-family: 'Poppins', sans-serif;
+    word-spacing: 15px;
+    letter-spacing: 3px;
+}
+p{
+    margin-left: 100px;
+    margin-right: 100px;
+    letter-spacing: 1px;
+}
+.nav-item{
+    font-size: 13px;
+    letter-spacing: 1px;
+}
+.search-icon{
+    padding-right: 40px;
+    padding-left: 20px;
+    margin-top: -5px;
+}
+.globe-icon{
+    font-size: 12px;
+    padding-right: 5px;
+}
+.bell-icon{
+    margin-top: -3.5px;
+    padding-right: 20px;
+}
+
+.main-subheading{
+    /* background-color: #f00; */
+    margin: 0;
+    text-align: center;
+    padding-left:8px;
+    padding-right: 8px;
+    color: white;
+}
+@media only screen and (max-width: 425px){
+	.main-subheading{
+        font-size: 10px;
+    }
+}
+
+.app-main-box{
+    /* background-color: red; */
+
+    /* margin-left: 80px;
+    margin-right: 60px; */
+    margin: auto;
+    width: 90%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    /* border-style:groove */
+    /* border-color: linear-gradient(to bottom, #f9004d 0%, #ff99ff 100%); */
+    /* border-image-source: linear-gradient(to left, #743ad5, #d53a9d); */
+    /* border colour system imp */
+    border: 3.5px solid transparent;
+    border-image: linear-gradient(45deg, #f9004d 0%, #ff99ff, #f0f, #f00);
+    border-image-slice: 1;
+}
+
+/* brand logo */
+.brand-logo h1{
+    font-size: 100px;
+    background: -webkit-linear-gradient(#f9004d, #f0f);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    letter-spacing: 40px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    padding-left: 20px;
+    padding-top:10px ;
+}
+.brand-logo p{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    /* background-color: red; */
+    margin: 0;
+    text-align: center;
+    word-spacing: 10px;
+    margin-top: -20px;
+    font-size: 10px;
+    letter-spacing: 5px;
+}
+.brand-logo{
+    padding-bottom: 25px;
+    /* background-color: #f00; */
+    margin-right: 0px;
+    padding-left: 28px;
+}
+
+/* featured-line */
+.featured-line{
+    text-align: center;
+    color: silver;
+    font-size: 10px;
+    padding-top: 30px;
+    letter-spacing:5px;
+}
+
+
+@media (max-width: 800px) {
+  .landing-page{
+    background-color: black;
+  }
+} 
+
+.copyright{
+    /* background-color: red; */
+    color: white;
+    font-size: 10px;
+    text-align: center;
+    margin: 0;
+}
+
+@media only screen and (max-width: 425px){
+	.copyright{
+        font-size: 8px;
+    }
+}
+
+.copyright svg{
+    margin-top: -3px;
+}
+
+/* box design */
+.box-design-1{
+    background-image: url('./designs/VPD.png');
+    background-size: cover;
+}
+.box-design-2{
+    background-image: url('./designs/vpd2.png');
+    background-size: cover;
+}
+.box-design-3{
+    background-image: url('./designs/vpd3.png');
+    background-size: cover;
+}
+.box-design-4{
+    background-image: url('./designs/vpd4.png');
+    background-size: cover;
+}
